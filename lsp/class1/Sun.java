@@ -1,8 +1,8 @@
 package class1;
-import java.util.HashMap;
+import java.util.Map;
 
 public class Sun extends Father {
-    public void fun(HashMap map){
+    public void fun(Map map){
         System.out.println("子类被执行...");
     }
 }

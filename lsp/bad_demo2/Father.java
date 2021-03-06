@@ -1,8 +1,9 @@
-package class1;
-import java.util.HashMap;
+package bad_demo2;
+
+import java.util.Map;
 
 public class Father {
-    public void fun(HashMap map){
+    public void fun(Map map){
         System.out.println("父类被执行...");
     }
 }

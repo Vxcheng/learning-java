@@ -2,8 +2,6 @@ package class2;
 
 import java.util.Map;
 
-public class Father {
-    public void fun(Map map){
-        System.out.println("父类被执行...");
-    }
+public abstract class Father {
+    public abstract Map fun();
 }
